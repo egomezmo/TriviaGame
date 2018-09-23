@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Totally Trivial Trivia!</title>     <!-- Titulo pagina-->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        <!-- Devices -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- libreria Jquery -->
+
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />    <!-- resetear CSS -->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />    <!-- estilos CSS -->
+            
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="instructions">
+                <h1 class="displlay-1" > Totally Trivial Trivia!</h1><br><br>
+                <button class="btn btn-primary btn-lg" id="start">Start</button>
+            </div>
+            <hr>
+            <p>Answer the Questios while you have time! Click start button to begging.</p>
+            
+            
+            <p id="display">Time remaining:</p>
+            <hr>
+            <div id="alldone" style="display:none;">
+                
+                <p>YOUR SCORE:</p>
+                <p id="correct" >Correct answer:</p>
+                <p id="incorrect" >Incorrect answer:</p>
+                <p id="noAnswer" >Unanswer:</p>      
+            </div>
+            <hr>        
+                <div class="contentQ" style="display:none;" >
+                    <div class="questionsP">
+                    <form class="questions">
+                        <p class="questionQ">What is the longest river in the world?</p>
+                        <input type="radio" name="one" value = 0 > Nil River<br>
+                        <input type="radio" name="one" value = 0 > Bravo River<br>
+                        <input type="radio" name="one" value = 1 > Amazonas River<br>
+                        <input type="radio" name="one" value = 0 > Rin River<br>
+                    </form>
+                    <form class="questions">
+                        <p class="questionQ">When the second world war II finish??</p>
+                        <input type="radio" name="two" value = 0 > 1954<br>
+                        <input type="radio" name="two" value = 1 > 1945<br>
+                        <input type="radio" name="two" value = 0 > 1939<br>
+                        <input type="radio" name="two" value = 0 > 1810<br>
+                    </form>
+                    <form class="questions">
+                        <p class="questionQ">Who is the Author of Quixote?</p>
+                        <input type="radio" name="tree" value = 0 > Bruno Mars<br>
+                        <input type="radio" name="tree" value = 0 > Octavio Paz<br>
+                        <input type="radio" name="tree" value = 1 > Miguel de Cervantes<br>
+                        <input type="radio" name="tree" value = 0 > Gabriel Garcia Marquez<br>
+                    </form>
+                    <form class="questions">
+                        <p class="questionQ">What is the biggest ocean in the world?</p>
+                        <input type="radio" name="four" value = 0 > Indigo Ocean<br>
+                        <input type="radio" name="four" value = 0 > Cortes Golf<br>
+                        <input type="radio" name="four" value = 1 > Pacific Ocean<br>
+                        <input type="radio" name="four" value = 0 > Artico Ocean<br>
+                    </form> 
+                    <form class="questions">
+                        <p class="questionQ">What is country with boot shape?</p>
+                        <input type="radio" name="five" value = 0 > Afghanistan<br>
+                        <input type="radio" name="five" value = 0 > Mexico<br>
+                        <input type="radio" name="five" value = 0 > Costa Rica<br>
+                        <input type="radio" name="five" value = 1 > Italy<br>
+                    </form>
+                    <br><br>
+                    <button class="btn btn-primary btn-lg" id="done">Done</button> 
+                </div>
+        </div>
+        
+        
+
+
+
+        <script src="assets/javascript/app.js"></script>    <!-- si se dirige archivo javascript --> 
+    </body> 
+</html>

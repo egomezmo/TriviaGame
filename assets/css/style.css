@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-image: url("../images/c.jpeg");   
+    
+    line-height: 1.5;
+
+}
+.container {
+    background: #AED6F1;
+    font-size: 20px;
+    margin: auto;
+    width: 60%;
+    height: 1300px;
+    border: 2px solid gray;
+    padding: 10px;
+    
+}
+#instructions{
+    text-align:center;
+
+}
+#alldone{
+    margin-left:30px;
+    color:blue;
+}
+
+p{
+    color: #5D6D7E;
+}
+
+h1{
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px;
+    color: orange;
+    
+}
+.contentQ{
+    margin-left:30px;
+}
